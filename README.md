@@ -23,3 +23,8 @@
 [hexファイル](/firmware/adkb96_rev1_mz80k.hex)を[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)でマイコンモジュールに書き込めばその配列で使用できるようになります。QMK関連のソフトについては、ビット・トレード・ワンのサイトにある[ソフトウェア情報](https://bit-trade-one.co.jp/selfmadekb/softwaremanual/)に使用方法が説明されていますので参考にしてください。
 
 ## キーラベル
+MZ-80K/Cシリーズのうち、格子状にキーが配列された次の4機種のラベルを作りました。
+### MZ-80K
+### MZ-80K(輸出仕様)
+### MZ-80K2
+### MZ-80K2E
