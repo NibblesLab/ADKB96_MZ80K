@@ -14,8 +14,12 @@
 96キーのうちMZのキーとして必要なのは80キーで、残り16キーはMZ用に割り当てなかったキーに充てます。
 
 ## ファームウェア
-[QMK Configurator](https://config.qmk.fm/#/adkb96/rev1/LAYOUT_ortho_6x16)を利用して制作しました。
+[QMK Configurator](https://config.qmk.fm/#/adkb96/rev1/LAYOUT_ortho_6x16)を利用して制作しました。アップロードしてあるファームでのキー配列は以下のようになっています。これは、[武田氏](http://takeda-toshiya.my.coocan.jp/)制作の[MZ-80Kエミュレータ](http://takeda-toshiya.my.coocan.jp/mz80k/index.html)に対応したものです。
 
-[key layout](/assets/layout.png)
+![key layout](/assets/layout.png)
+
+[JSONファイル](/firmware/mz80k.json)をQMK Configuratorにアップロードすれば、お好みの配列に変更できます。特に最上段のMZ用以外のキー配列については好みの分かれるところかと思います。ただし、Num Lockされていない状態でエミュレータを使用すると(特にノートPC)、テンキーに割り当てられたキーが正常に入力されなくなりますので、Num Lockキーは配置しておくことをお勧めします。
+
+[hexファイル](/firmware/adkb96_rev1_mz80k.hex)を[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)でマイコンモジュールに書き込めばその配列で使用できるようになります。QMK関連のソフトについては、ビット・トレード・ワンのサイトにある[ソフトウェア情報](https://bit-trade-one.co.jp/selfmadekb/softwaremanual/)に使用方法が説明されていますので参考にしてください。
 
 ## キーラベル
