@@ -16,4 +16,6 @@
 ## ファームウェア
 [QMK Configurator](https://config.qmk.fm/#/adkb96/rev1/LAYOUT_ortho_6x16)を利用して制作しました。
 
+[key layout](/assets/layout.png)
+
 ## キーラベル
