@@ -1,6 +1,8 @@
 # ADKB96_MZ80K
 [ビット・トレード・ワン](https://bit-trade-one.co.jp/)より発売中の96キー セルフメイドキーボードキット「[ADKB96](https://bit-trade-one.co.jp/selfmadekb/adkb96/)」を使って、MZ-80Kシリーズ風USBキーボードを作ってみました。
 
+![ADKB96_MZ80K](/assets/adkb96_mz80.jpg)
+
 ## 必要なもの
 - ADKB96
 - キースイッチ(CherryMXまたは互換) 96個
